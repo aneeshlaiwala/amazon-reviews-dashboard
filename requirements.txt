@@ -6,8 +6,8 @@ matplotlib==3.10.3
 vaderSentiment==3.3.2
 googletrans==3.1.0a0
 nltk==3.9.1
-gensim==3.8.3  # Older version with potential pre-built wheels
+gensim==3.8.3
 scikit-learn==1.7.0
-scipy==1.11.4
+scipy==1.2.3  # Matches gensim 3.8.3 requirement
 statsmodels==0.14.5
 numpy==1.26.4
