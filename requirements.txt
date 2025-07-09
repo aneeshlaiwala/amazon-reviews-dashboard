@@ -1,12 +1,13 @@
-streamlit
-pandas
-plotly
-wordcloud
-matplotlib
-vaderSentiment
+streamlit==1.46.1
+pandas==2.3.1
+plotly==6.2.0
+wordcloud==1.9.4
+matplotlib==3.10.3
+vaderSentiment==3.3.2
 googletrans==3.1.0a0
-nltk
-gensim
-scikit-learn
-scipy
-statsmodels
+nltk==3.9.1
+gensim==4.3.2  # Downgrade to a version with pre-built wheels for Python 3.13
+scikit-learn==1.7.0
+scipy==1.13.0  # Use a version with pre-built wheels; 1.13.1 may require Fortran
+statsmodels==0.14.5
+numpy==1.26.4  # Ensure compatibility with Python 3.13
