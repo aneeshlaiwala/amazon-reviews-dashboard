@@ -1,0 +1,12 @@
+streamlit
+pandas
+plotly
+wordcloud
+matplotlib
+vaderSentiment
+googletrans==3.1.0a0
+nltk
+gensim
+scikit-learn
+scipy
+statsmodels
